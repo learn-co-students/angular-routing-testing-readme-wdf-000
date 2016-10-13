@@ -2,7 +2,7 @@
 
 ## Overview
 
-Now that we've got our routes setup, it's crucial that when we make changes to our application that we don't break any existing route - that's where tests come in!
+Now that we've got our routes setup, it's crucial that when we make changes to our application that we don't break any existing route. That's where tests come in!
 
 ## Objectives
 
@@ -11,9 +11,9 @@ Now that we've got our routes setup, it's crucial that when we make changes to o
 
 ## Instructions
 
-When we test our routes/states we should check that the URL is as we expect, that it's using the correct template and fetching the correct data that it needs.
+When we test our routes/states we should check that the URL is as we expect — that it's using the correct template and fetching the correct data that it needs.
 
-To get all of our states configuration, we can inject `$state` and use `$state.get` to retrieve the configuration object for that state. As we've registered all of our states with the `$stateProvider`, we can then access them all via `$state`.
+To get all of our states' configuration, we can inject `$state` and use `$state.get` to retrieve the configuration object for that state. As we've registered all of our states with the `$stateProvider`, we can then access them all via `$state`.
 
 An example test would look like:
 
